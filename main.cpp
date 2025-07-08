@@ -6,7 +6,7 @@ int main() {
 
   std::cout << "Enter Month (1-12): ";
     std::cin >> Month;
-      
+      // incase of invalid input, the program will prompt the user to enter a valid input
     while (Month < 1 || Month > 12) {
     std::cout << "Month must be between 1 and 12.";
       std::cin >> Month;
